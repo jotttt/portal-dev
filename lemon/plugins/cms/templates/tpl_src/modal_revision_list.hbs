@@ -1,0 +1,16 @@
+ <div class="modal fade" id="revlist" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+ <div class="modal-dialog modal-lg">
+ <div class="modal-content">
+ <div class="modal-header">
+ <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+ <h4 class="modal-title" id="myModalLabel">{{pageId}} - eelnevad versioonid</h4>
+ </div>
+ <div class="modal-body">
+<ul class="list-group">
+{{#each revisions}}
+    <li class="list-group-item"><a class="revisionLink" data-id="{{this.pageId}}" data-rev="{{this.version}}" data-index="{{@index}}" href="/edit/{{../sessionId}}/{{this.pageId}}&amp;rev={{this.version}}">{{this.pageId}}</a> - {{../t.txt_last_modified}} {{this.modified}} {{../t.txt_person}} {{this.user}}</li>
+{{/each}}
+ </div>
+ </div>
+ </div>
+ </div>

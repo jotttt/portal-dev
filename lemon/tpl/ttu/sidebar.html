@@ -1,0 +1,39 @@
+<nav class="navbar-default navbar-static-side" role="navigation">
+    <div class="sidebar-collapse">
+        <ul class="nav" id="side-menu">
+            <li class="nav-header">
+
+                <div class="dropdown profile-element">
+                    <span>
+                        <a href="#" class="cr-block"><div id="logo-minimal-w" class="center-block"></div></a>
+                    </span>
+
+                    <!--
+                                        <a data-toggle="dropdown" class="dropdown-toggle" href="#" aria-expanded="false">
+                                            <span class="clear text-center">
+                                                <div class="text-lighter-grey m-t-xs">Sisse loginud:</div>
+                                                <strong class="font-bold">Sander Marandi<b class="caret"></b></strong> </span> </a>
+                                        <ul class="dropdown-menu animated fadeInRight">
+                                            <li><a href="profile.html">Profile</a></li>
+                                            <li><a href="contacts.html">Contacts</a></li>
+                                            <li><a href="mailbox.html">Mailbox</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="login.html">Logout</a></li>
+                                        </ul>
+                    -->
+                </div>
+
+
+                <div class="logo-element">
+                    <div id="logo-text-w" class="center-block"></div>
+                </div>
+            </li>
+
+            $fn_generate_sidebar$<li$is_active$>
+                <a href="#"><i class="fa fa-$module_icon$"></i> <span class="nav-label">$module_title$</span><span class="fa arrow"></span></a>
+                $module_submenu$
+            </li>$fn_stop$
+
+        </ul>
+    </div>
+</nav>

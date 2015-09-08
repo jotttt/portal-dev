@@ -1,0 +1,51 @@
+u {
+    color: #cc2222;
+    text-decoration: none;
+}
+
+#dataTable, #dataTable2, #dataTable3, #dataTable4, #dataTable5, #dataTable6 {
+    cursor: pointer;
+}
+
+#specify {
+    width: 550px;
+}
+
+#accordion_a a {
+    text-decoration: none;
+}
+
+.req {
+    color: #cc2222;
+    display: none;
+}
+
+.required {
+    border: 1px solid #cc2222;
+}
+
+.close_tab {
+    cursor: pointer;
+    color: #aa0000;
+}
+
+.short {
+    width: 200px;
+}
+
+.spent {
+    float: left;
+    width: 70px;
+}
+
+.spent_suf {
+    float: left;
+    padding: 7px;
+}
+
+.pick_requester {
+    cursor: pointer;
+    border: 1px solid #ccc;
+    padding: 4px;
+    margin: 2px;
+}

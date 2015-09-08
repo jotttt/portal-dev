@@ -1,0 +1,29 @@
+#datatable td
+{
+    text-align:right;
+    vertical-align:middle;
+}
+th, td {
+    padding: 3px;
+}
+table {
+    margin: 10px;
+}
+#bar1, #sliders {
+	min-width: 310px;
+	max-width: 800px;
+	margin: 0 auto;
+}
+#bar1 {
+	height: 400px;
+}
+#container {
+	height: 400px;
+	min-width: 310px;
+	max-width: 800px;
+	margin: 0 auto;
+}
+.strong {
+    font-size: 120%;
+    font-weight: bold;
+}

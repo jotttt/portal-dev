@@ -1,0 +1,20 @@
+<nav class="navbar-default navbar-static-side" role="navigation">
+    <div class="sidebar-collapse">
+        <ul class="nav" id="side-menu">
+            <li class="nav-header">
+                <div class="profile-element">
+                    <img alt="LOGO" class="img-square" height="26" width="86" src="$static_url$/img/logo-short-et.png" />
+                </div>
+                <div class="logo-element">
+                    TTÜ
+                </div>
+            </li>
+
+            $fn_generate_sidebar$<li$is_active$>
+                <a href="#"><i class="fa fa-$module_icon$"></i> <span class="nav-label">$module_title$</span><span class="fa arrow"></span></a>
+                $module_submenu$
+            </li>$fn_stop$
+        </ul>
+
+    </div>
+</nav>

@@ -1,0 +1,32 @@
+$fn_show_alert_messages$
+<div class="row" id="error-container">
+    <div class="alert $alert_type$ alert-dismissable col-md-6" id="alertbox">$alert_text$
+        <button type="button" class="close" data-dismiss="alert">&times</button>
+    </div>
+</div>$fn_stop$
+
+<div class="row wrapper border-bottom white-bg page-heading">
+    <div class="col-sm-12">
+        <ol class="breadcrumb">
+            <li><i class="fa fa-home"></i> <a href="/start/$sess_id$">$txt_home$</a></li>
+            $fn_list_breadcrumbs$
+            <li><i class="fa fa-$icon$"></i> <a href="/$focus$/$sess_id$/$arg$" class="ajax-load">$focus_title$</a></li>$fn_stop$
+        </ol>
+    </div>
+</div>
+
+<div class="wrapper wrapper-content animated fadeIn" style="font-size: 1.1em">
+    $module_content$
+</div>
+
+<div class="footer">
+    <div class="pull-right">
+        $txt_buildno$: $buildno$
+    </div>
+    <div>
+        $txt_page_footer$ 2013 - $this_year$
+    </div>
+</div>
+
+<div id="_module" class="$module$"></div>
+<div id="_focus" class="$focus$"></div>
